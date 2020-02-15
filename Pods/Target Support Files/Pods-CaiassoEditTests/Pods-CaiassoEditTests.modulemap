@@ -1,0 +1,6 @@
+framework module Pods_CaiassoEditTests {
+  umbrella header "Pods-CaiassoEditTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

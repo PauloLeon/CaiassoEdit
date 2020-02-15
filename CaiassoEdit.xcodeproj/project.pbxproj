@@ -16,6 +16,8 @@
 		0BCCA71223F82218005151BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BCCA71023F82218005151BC /* LaunchScreen.storyboard */; };
 		0BCCA71D23F82218005151BC /* CaiassoEditTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCCA71C23F82218005151BC /* CaiassoEditTests.swift */; };
 		0BCCA72823F82218005151BC /* CaiassoEditUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCCA72723F82218005151BC /* CaiassoEditUITests.swift */; };
+		8E0F01650FAFFE9D9FA7A1B4 /* Pods_CaiassoEditTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46244D8EB777D89D3C173BF4 /* Pods_CaiassoEditTests.framework */; };
+		FF397A5D0CED525DB38BC3BD /* Pods_CaiassoEdit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA60F4B7E5C9AA12D8DC3EDA /* Pods_CaiassoEdit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,12 @@
 		0BCCA72323F82218005151BC /* CaiassoEditUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaiassoEditUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BCCA72723F82218005151BC /* CaiassoEditUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaiassoEditUITests.swift; sourceTree = "<group>"; };
 		0BCCA72923F82218005151BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E111131369F3B3446F60748 /* Pods-CaiassoEditTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaiassoEditTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CaiassoEditTests/Pods-CaiassoEditTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46244D8EB777D89D3C173BF4 /* Pods_CaiassoEditTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaiassoEditTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7F4A48D05A8A87ED1B16E05 /* Pods-CaiassoEditTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaiassoEditTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CaiassoEditTests/Pods-CaiassoEditTests.release.xcconfig"; sourceTree = "<group>"; };
+		BA60F4B7E5C9AA12D8DC3EDA /* Pods_CaiassoEdit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaiassoEdit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CB34E85D3ABC771F14ABA9 /* Pods-CaiassoEdit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaiassoEdit.release.xcconfig"; path = "Pods/Target Support Files/Pods-CaiassoEdit/Pods-CaiassoEdit.release.xcconfig"; sourceTree = "<group>"; };
+		F4FAD333E886E83156E39BAA /* Pods-CaiassoEdit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaiassoEdit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CaiassoEdit/Pods-CaiassoEdit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF397A5D0CED525DB38BC3BD /* Pods_CaiassoEdit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E0F01650FAFFE9D9FA7A1B4 /* Pods_CaiassoEditTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +95,8 @@
 				0BCCA71B23F82218005151BC /* CaiassoEditTests */,
 				0BCCA72623F82218005151BC /* CaiassoEditUITests */,
 				0BCCA70023F82217005151BC /* Products */,
+				45146C3B97D0C9D8FA991837 /* Pods */,
+				5529EF9C223FD9DC29C572AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +143,26 @@
 			path = CaiassoEditUITests;
 			sourceTree = "<group>";
 		};
+		45146C3B97D0C9D8FA991837 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4FAD333E886E83156E39BAA /* Pods-CaiassoEdit.debug.xcconfig */,
+				D3CB34E85D3ABC771F14ABA9 /* Pods-CaiassoEdit.release.xcconfig */,
+				1E111131369F3B3446F60748 /* Pods-CaiassoEditTests.debug.xcconfig */,
+				B7F4A48D05A8A87ED1B16E05 /* Pods-CaiassoEditTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5529EF9C223FD9DC29C572AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA60F4B7E5C9AA12D8DC3EDA /* Pods_CaiassoEdit.framework */,
+				46244D8EB777D89D3C173BF4 /* Pods_CaiassoEditTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BCCA72C23F82218005151BC /* Build configuration list for PBXNativeTarget "CaiassoEdit" */;
 			buildPhases = (
+				25AC7129D90EE7BA1F5B0020 /* [CP] Check Pods Manifest.lock */,
 				0BCCA6FB23F82217005151BC /* Sources */,
 				0BCCA6FC23F82217005151BC /* Frameworks */,
 				0BCCA6FD23F82217005151BC /* Resources */,
+				BA913ED69E78324BF58BAB2A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +189,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BCCA72F23F82218005151BC /* Build configuration list for PBXNativeTarget "CaiassoEditTests" */;
 			buildPhases = (
+				F7E67690008B995243D74CBD /* [CP] Check Pods Manifest.lock */,
 				0BCCA71423F82218005151BC /* Sources */,
 				0BCCA71523F82218005151BC /* Frameworks */,
 				0BCCA71623F82218005151BC /* Resources */,
@@ -256,6 +291,83 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25AC7129D90EE7BA1F5B0020 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CaiassoEdit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA913ED69E78324BF58BAB2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CaiassoEdit/Pods-CaiassoEdit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyDropbox/SwiftyDropbox.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyDropbox.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaiassoEdit/Pods-CaiassoEdit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7E67690008B995243D74CBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CaiassoEditTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0BCCA6FB23F82217005151BC /* Sources */ = {
@@ -436,6 +548,7 @@
 		};
 		0BCCA72D23F82218005151BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4FAD333E886E83156E39BAA /* Pods-CaiassoEdit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +567,7 @@
 		};
 		0BCCA72E23F82218005151BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3CB34E85D3ABC771F14ABA9 /* Pods-CaiassoEdit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +586,7 @@
 		};
 		0BCCA73023F82218005151BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E111131369F3B3446F60748 /* Pods-CaiassoEditTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +609,7 @@
 		};
 		0BCCA73123F82218005151BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7F4A48D05A8A87ED1B16E05 /* Pods-CaiassoEditTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
