@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0BCCA70323F82217005151BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCCA70223F82217005151BC /* AppDelegate.swift */; };
-		0BCCA70523F82217005151BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCCA70423F82217005151BC /* SceneDelegate.swift */; };
 		0BCCA70723F82217005151BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCCA70623F82217005151BC /* ViewController.swift */; };
 		0BCCA70A23F82217005151BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BCCA70823F82217005151BC /* Main.storyboard */; };
 		0BCCA70D23F82217005151BC /* CaiassoEdit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0BCCA70B23F82217005151BC /* CaiassoEdit.xcdatamodeld */; };
@@ -40,7 +39,6 @@
 /* Begin PBXFileReference section */
 		0BCCA6FF23F82217005151BC /* CaiassoEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaiassoEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BCCA70223F82217005151BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0BCCA70423F82217005151BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0BCCA70623F82217005151BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0BCCA70923F82217005151BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0BCCA70C23F82217005151BC /* CaiassoEdit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CaiassoEdit.xcdatamodel; sourceTree = "<group>"; };
@@ -88,6 +86,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BAA6FEF23F8291500D8208E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0BCCA70223F82217005151BC /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0BAA6FF023F8292100D8208E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0BCCA70E23F82218005151BC /* Assets.xcassets */,
+				0BCCA71023F82218005151BC /* LaunchScreen.storyboard */,
+				0BCCA71323F82218005151BC /* Info.plist */,
+				0BCCA70B23F82217005151BC /* CaiassoEdit.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0BAA6FF123F8293900D8208E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0BCCA70623F82217005151BC /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0BAA6FF223F8294400D8208E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0BAA6FF323F8295100D8208E /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0BAA6FF323F8295100D8208E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0BCCA70823F82217005151BC /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		0BCCA6F623F82217005151BC = {
 			isa = PBXGroup;
 			children = (
@@ -113,14 +154,10 @@
 		0BCCA70123F82217005151BC /* CaiassoEdit */ = {
 			isa = PBXGroup;
 			children = (
-				0BCCA70223F82217005151BC /* AppDelegate.swift */,
-				0BCCA70423F82217005151BC /* SceneDelegate.swift */,
-				0BCCA70623F82217005151BC /* ViewController.swift */,
-				0BCCA70823F82217005151BC /* Main.storyboard */,
-				0BCCA70E23F82218005151BC /* Assets.xcassets */,
-				0BCCA71023F82218005151BC /* LaunchScreen.storyboard */,
-				0BCCA71323F82218005151BC /* Info.plist */,
-				0BCCA70B23F82217005151BC /* CaiassoEdit.xcdatamodeld */,
+				0BAA6FEF23F8291500D8208E /* AppDelegate */,
+				0BAA6FF123F8293900D8208E /* Controllers */,
+				0BAA6FF023F8292100D8208E /* Resources */,
+				0BAA6FF223F8294400D8208E /* Views */,
 			);
 			path = CaiassoEdit;
 			sourceTree = "<group>";
@@ -377,7 +414,6 @@
 				0BCCA70723F82217005151BC /* ViewController.swift in Sources */,
 				0BCCA70D23F82217005151BC /* CaiassoEdit.xcdatamodeld in Sources */,
 				0BCCA70323F82217005151BC /* AppDelegate.swift in Sources */,
-				0BCCA70523F82217005151BC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
